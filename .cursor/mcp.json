@@ -15,6 +15,14 @@
             "env": {
                 "SITE_PATH": "/Users/chie/AI/Task Management/task_management_app"
             }
+        },
+        "laravel-tasks": {
+            "command": "/Users/chie/AI/MCP Server/.venv/bin/python",
+            "args": ["/Users/chie/AI/MCP Server/server.py"],
+            "env": {
+                "MCP_API_KEY": "35f7892f16fd40932aaaddabd50db858307b102ad8c6c8b7fb0376b096069411",
+                "API_BASE_URL": "https://task_management_app.test/api/mcp"
+            }
         }
     }
 }
