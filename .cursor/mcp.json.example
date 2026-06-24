@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "laravel-tasks": {
+            "command": "/path/to/task_management_mcp/.venv/bin/python",
+            "args": ["/path/to/task_management_mcp/server.py"],
+            "env": {
+                "MCP_API_KEY": "your-mcp-api-key-here",
+                "API_BASE_URL": "http://127.0.0.1:8000/api/mcp"
+            }
+        }
+    }
+}
